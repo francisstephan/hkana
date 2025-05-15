@@ -1,10 +1,10 @@
-#Hkana
+# Hkana
 
 `hkana` is a port to Clojurescript of my `hiragana` Clojure program, based on the [instaparse](https://github.com/engelberg/instaparse) parser generator ("Context-Free Grammars as Easy as Regular Expressions").
 
 Watch live at [https://www.eludev.fr/hkana](https://www.eludev.fr/hkana)
 
-#Clojurescript project scaffolding
+## Clojurescript project scaffolding
 
 Six years ago I had initially built the project using leiningen and figwheel. Coming back to it in 2025, I had to conclude that lein-figwheel had become overly complex and that the project.clj configuration file was hard to manage.
 
