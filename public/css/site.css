@@ -1,0 +1,56 @@
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  width:100%;
+  height:100%;
+  margin: 0 ;
+  padding-top: 72px;
+  padding-left: 10px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+#app , #notice {
+  margin-left: 20px;
+}
+#app p{
+  padding-right: 30px;
+  font-weight:bold;
+  font-size:1.2em;
+}
+
+input.rebut , button.rebut {
+  background-color: #999;
+  padding: 0 20px 0 20px;
+  font-size: 0.9em;
+  color: white;
+  margin: 10px 0 20px 70px;
+}
+input [type=text] {
+  margin-top:20px;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2em
+}
+
+h2 {
+  font-size: 1.5em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+a {
+  text-decoration: none;
+  color: #09f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
