@@ -1,0 +1,2 @@
+#! /bin/zsh
+tree -I node_modules -I cljs-runtime

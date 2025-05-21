@@ -1,4 +1,4 @@
-(ns app.trans 
+(ns app.trans
 	(:require [instaparse.core :as insta]))
 
 (def romhir {"a" "\u3042" ,"i" "\u3044" ,"u" "\u3046" ,"e" "\u3048" ,"o" "\u304A",
@@ -20,7 +20,7 @@
         h = vowel/nkana/conson vowel/wkana/cykana/ykana/sokuon/wspace
         <conson> = 'k'|'s'|'t'|'n'|'h'|'m'|'r'|'g'|'z'|'d'|'b'|'p'
 	     <vowel> = 'a'|'i'|'u'|'e'|'o'
-	     <nkana> = ('n' &conson)/('n' <'‘'>)/('n' &wkana)/('n' &' ')/('n' &'.')/('n' &',')/(#'n$')
+	     <nkana> = ('n' &conson)/('n' <'\\''>)/('n' &wkana)/('n' &' ')/('n' &'.')/('n' &',')/(#'n$')
 	     <wkana> = 'wa'|'wo'
         <ykana> = 'ya'|'yu'|'yo'
         <wspace> = (' ')*|'.'|','|'?'|'!'
